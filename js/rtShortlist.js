@@ -43,12 +43,7 @@ let checkAndGetCandidateList = () => {
 
 let getCandidateList = async () => {
     let candidateRespData;
-    await fetch(fetchURL, {
-            mode: 'cors',
-            headers: {
-                'Access-Control-Allow-Origin': '*'
-            }
-        })
+    await fetch(fetchURL)
         .then(response => {
             candidateRespData = response
         })
