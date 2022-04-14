@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Recruitment tool</title>
+
+    <link rel="stylesheet" href="/recruitmentTool/css/rtShortlist.css">
+
+    <script src="/recruitmentTool/js/muuri.min.js"></script>
+    <script src="/recruitmentTool/js/web-animations.min.js"></script>
+    <script src="/recruitmentTool/js/rtShortlist.js"></script>
+</head>
+<body>
+
+    <section class="rtShortlistedContainer">
+        <div class="rtShortlistedTopContainer hidden">
+            <div class="rtShortlistedCountContainer">
+                <span><strong>All Candidates</strong> (</span><span class="rtShortListedCount"></span><span>)</span>
+            </div>
+            <div class="rtSearchContainer fa fa-search">
+                <input type="text" id="id_searchCandidate" placeholder="Search Candidate">
+            </div>
+        </div>
+
+        <div id="id_shortlistedBoard">
+            <div class="drag_container"></div>
+            <div class="board">
+                <div class="dot_flashing_container"><div class="dot_flashing"></div></div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

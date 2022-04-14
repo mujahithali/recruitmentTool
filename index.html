@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Recruitment tool</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+    <script src="/recruitmentTool/js/jquery.min.js"></script>
+    <script src="/recruitmentTool/js/site.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="/recruitmentTool/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/recruitmentTool/css/site.css">
+</head>
+
+    <body>
+        <header>
+            <div>
+                <img src="/recruitmentTool/img/person-lines-fill.svg" alt="recruiter" />
+                <span>XYZ Talent Center</span>
+            </div>
+        </header>
+        
+        <main>
+            <div class="col-sm-12 goToLinkContainer">
+                <ul>
+                    <li qParam="">
+                        <button class="btn-primary">Go to Dashboard</button>
+                    </li>
+                    <li qParam="cbr=0&hbl=1">
+                        <button class="btn-primary">Go to Dashboard</button><span>(without Column Border & Header BG Color)</span>
+                    </li>
+                    <li qParam="cs=1">
+                        <button class="btn-primary">Go to Dashboard</button><span>(without Session)</span>
+                    </li>
+                    <li qParam="pcgd=1">
+                        <button class="btn-primary">Go to Dashboard</button><span>(prevent Column group drag)</span>
+                    </li>
+                    <li qParam="prsd=1">
+                        <button class="btn-primary">Go to Dashboard</button><span>(prevent individual card drag from Selected & Rejected Column)</span>
+                    </li>
+                </ul>                
+            </div>
+        </main>
+
+        <aside class="backtoTopBtnDiv hide">
+            <button onclick="backtoTopFn()" id="id_backtoTopBtn" title="Back to top"><span>&#8593;</span>Top</button>
+        </aside>        
+    </body>
+</html>
